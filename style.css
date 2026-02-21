@@ -76,9 +76,11 @@ p{
    
    
 }
-@media (min-width: 768px) {
+@media (max-width: 1440px) {
     .card{
-        max-width: 400px;
+        width:100%;
+       
     }
     
 }
+
