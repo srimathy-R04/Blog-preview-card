@@ -15,7 +15,7 @@ button{
     padding: 5px;
     font-weight: bold;
     font-size: large;
-    margin-right: 70%;
+   aling-self:flex-start;
     padding-top:5px;
     font-family:'Times New Roman', Times, serif;
 }
@@ -27,7 +27,7 @@ p{
     display: block;
     margin: 0 auto;
     border-radius: 25px ;
-   width:80%;
+   width:90%;
     padding: 10px;
 }
 .card{
@@ -90,5 +90,6 @@ p{
     margin: 0 auto; 
     }
 }
+
 
 
