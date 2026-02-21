@@ -57,7 +57,7 @@ p{
 #a img{
     height: 35px;
     width: 35px;
-    border-radius: 50%;
+  
 }
 
 #a span{
@@ -72,5 +72,6 @@ p{
         font-size: 18px;
     }
 }
+
 
 
