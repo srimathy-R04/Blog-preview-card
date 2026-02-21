@@ -16,7 +16,7 @@ button{
     padding: 5px;
     font-weight: bold;
     font-size: large;
-      align-self:flex-start;
+     margin-right:70%;
     padding-top:5px;
     font-family:'Times New Roman', Times, serif;
 }
@@ -55,7 +55,7 @@ p{
 #a {
     display: flex;
     gap: 10px;
-   align-self:flex-start;
+    margin-right:70%;
 }
 #a span{
     padding-top: 15px;
@@ -68,16 +68,17 @@ p{
 @media (min-width: 768px) {
    body { font-size: 18px; padding: 1rem; } }
     
-@media (min-width: 1440px) 
+@media (max-width: 1440px) 
 {
     body 
     {
         font-size: 20px;
         padding: 2rem; 
-        max-width: 1200px;
+        min-width: 1200px;
     margin: 0 auto; 
     }
 }
+
 
 
 
