@@ -28,7 +28,7 @@ body{
 .card img{
     width: 100%;
     height: auto;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 /* Button */
@@ -61,7 +61,8 @@ p{
 }
 
 #a span{
-    font-weight: bold;
+      padding-top: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Desktop adjustments */
@@ -70,3 +71,4 @@ p{
         font-size: 18px;
     }
 }
+
