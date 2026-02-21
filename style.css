@@ -3,85 +3,70 @@ body{
     align-items: center;
     justify-content: center;
     background-color: hsl(47, 88%, 63%);
-   font-family: 'Figtree',sans-serif;
-    min-height:100vh;
-    max-width: 100%;
-    padding:20px;
+    font-family: 'Figtree', sans-serif;
+    min-height: 100vh;
+    padding: 20px;
     margin: 0;
 }
 
+/* Card */
+.card{
+    background-color: white;
+    box-shadow: 8px 8px 0px black;
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 380px;
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   /* automatic spacing */
+}
+
+/* Image */
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Button */
 button{
     background-color: hsl(47, 88%, 63%);
     border: none;
-    padding: 5px;
+    padding: 6px 12px;
     font-weight: bold;
-    font-size: large;
-     margin-right:70%;
-    padding-top:5px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    align-self: flex-start;   /* left align without margin-right */
 }
 
+/* Paragraph */
 p{
     font-size: 16px;
+    margin: 0;
 }
-.card img{
-    display: block;
-    
-    border-radius: 25px ;
-   width:100%;
-    height:auto;
-    padding:20px;
-}
-.card{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0%;
-    background-color: white;
-    box-shadow: 8px 8px 0px  black;
-    border: 2px solid black;
-    transition: 0.1s;
-    width: 100%;
-    border-radius: 25px;
-    max-width: 380px;
-    padding:20px;
-    margin: 0 auto;
-    border-right: 5pc black;
-}
-.card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-#a {
+
+/* Author section */
+#a{
     display: flex;
+    align-items: center;
     gap: 10px;
-    margin-right:70%;
 }
-#a span{
-    padding-top: 15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 #a img{
     height: 35px;
-   width: 35px;  
+    width: 35px;
+    border-radius: 50%;
 }
-@media (min-width: 768px) {
-   body { font-size: 18px; padding: 1rem; } }
-    
-@media (max-width: 1440px) 
-{
-    body 
-    {
-        font-size: 20px;
-        padding: 2rem; 
-        min-width: 1200px;
-    margin: 0 auto; 
+
+#a span{
+    font-weight: bold;
+}
+
+/* Desktop adjustments */
+@media (min-width: 768px){
+    body{
+        font-size: 18px;
     }
 }
-
-
-
-
-
-
-
