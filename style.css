@@ -15,7 +15,7 @@ button{
     padding: 5px;
     font-weight: bold;
     font-size: large;
-   aling-self:flex-start;
+   margin-right:70%;
     padding-top:5px;
     font-family:'Times New Roman', Times, serif;
 }
@@ -90,6 +90,7 @@ p{
     margin: 0 auto; 
     }
 }
+
 
 
 
