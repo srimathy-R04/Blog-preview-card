@@ -39,7 +39,7 @@ p{
     box-shadow: 8px 8px 0px  black;
     border: 2px solid black;
     transition: 0.1s;
-    width: 90%;
+    width: 100%;
     max-width:380px;
     border-radius: 25px;
     margin: 0 auto;
@@ -80,3 +80,4 @@ p{
         padding:15px;
     }
 }
+
