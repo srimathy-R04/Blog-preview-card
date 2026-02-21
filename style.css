@@ -24,11 +24,11 @@ p{
 }
 .card img{
     display: block;
-    margin: 0 auto;
+  
     border-radius: 25px ;
     text-align:center;
-   width:80%;
-    padding: 10px;
+   width:100%;
+ 
 }
 .card{
     display:flex;
@@ -41,6 +41,7 @@ p{
     border: 2px solid black;
     transition: 0.1s;
     width: 100%;
+    padding:20px;
     max-width:380px;
     border-radius: 25px;
     margin: 0 auto;
@@ -53,7 +54,7 @@ p{
 #a {
     display: flex;
     gap: 10px;
-    margin-right: 50%;
+  alingn-self: flex-start;
   
    
 }
@@ -68,12 +69,13 @@ p{
    
    
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .card{
        width:100%;
         padding:15px;
     }
 }
+
 
 
 
