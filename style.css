@@ -26,7 +26,8 @@ p{
     display: block;
     margin: 0 auto;
     border-radius: 25px ;
-   width:100%;
+    text-align:center;
+   width:90%;
     padding: 10px;
 }
 .card{
@@ -45,13 +46,6 @@ p{
     margin: 0 auto;
     border-right: 5px black;
 }
-.container img{
-    width: 5px;
-    height: 5px;
-}
-    
-
-
 .card:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -80,5 +74,6 @@ p{
         padding:15px;
     }
 }
+
 
 
