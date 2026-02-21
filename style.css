@@ -24,7 +24,7 @@ p{
 }
 .card img{
     display: block;
-  
+  height:auto;
     border-radius: 25px ;
     text-align:center;
    width:100%;
@@ -75,6 +75,7 @@ p{
         padding:15px;
     }
 }
+
 
 
 
